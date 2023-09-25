@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CATALOG_ITEM_CARD_CLICKED</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Catalog item card clicked</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-25 14:18:54</sys_created_on>
+        <sys_id>a95539bc88a531104f5293ab73b95bff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Catalog item card clicked</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sys_ux_event_a95539bc88a531104f5293ab73b95bff</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-25 14:18:54</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=a95539bc88a531104f5293ab73b95bff"/>
+</record_update>
