@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Registrations" language="en" table="x_957439_trainin_0_registrations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Registrations</label>
+            <language>en</language>
+            <name>x_957439_trainin_0_registrations</name>
+            <plural>Registrations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-04 06:26:15</sys_created_on>
+            <sys_id>8b7fd2a72fa131103719f3ecf699b6be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Registrations</sys_name>
+            <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+            <sys_update_name>sys_documentation_x_957439_trainin_0_registrations__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-04 06:26:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

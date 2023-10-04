@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_user" table="x_957439_trainin_0_trainers">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_957439_trainin_0_trainer">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -30,7 +35,7 @@
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_957439_trainin_0_trainers</name>
+        <name>x_957439_trainin_0_trainer</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,15 +51,15 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-25 14:07:46</sys_created_on>
-        <sys_id>84d2bdf82fa531103719f3ecf699b6bd</sys_id>
-        <sys_name>x_957439_trainin_0_trainers</sys_name>
+        <sys_created_on>2023-10-04 06:44:24</sys_created_on>
+        <sys_id>b0a3e6ab2fa131103719f3ecf699b6a7</sys_id>
+        <sys_name>x_957439_trainin_0_trainer</sys_name>
         <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
-        <sys_update_name>sys_dictionary_x_957439_trainin_0_trainers_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_957439_trainin_0_trainer_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-25 14:07:46</sys_updated_on>
+        <sys_updated_on>2023-10-04 06:44:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
