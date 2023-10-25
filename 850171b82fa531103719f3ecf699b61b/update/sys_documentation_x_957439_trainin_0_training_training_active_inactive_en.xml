@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="course_name" label="Course Name" language="en" table="x_957439_trainin_0_training">
+    <sys_documentation element="training_active_inactive" label="Training Active" language="en" table="x_957439_trainin_0_training">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>course_name</element>
+            <element>training_active_inactive</element>
             <help/>
             <hint/>
-            <label>Course Name</label>
+            <label>Training Active</label>
             <language>en</language>
             <name>x_957439_trainin_0_training</name>
-            <plural>Course Names</plural>
+            <plural>Training Active</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-09-27 09:08:03</sys_created_on>
-            <sys_id>fc618bd52f2131103719f3ecf699b6d9</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_name>Course Name</sys_name>
+            <sys_created_on>2023-10-04 06:14:26</sys_created_on>
+            <sys_id>cecc1ae32fa131103719f3ecf699b6b4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Training Active</sys_name>
             <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
             <sys_policy/>
             <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
-            <sys_update_name>sys_documentation_x_957439_trainin_0_training_course_name_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_957439_trainin_0_training_training_active_inactive_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-12 12:22:47</sys_updated_on>
+            <sys_updated_on>2023-10-10 08:34:14</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="course_name" table="x_957439_trainin_0_training">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="approval_history" table="x_957439_trainin_0_registrations">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Course Name</column_label>
+        <column_label>Approval history</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -16,21 +21,21 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>course_name</element>
+        <element>approval_history</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>40</max_length>
-        <name>x_957439_trainin_0_training</name>
+        <internal_type display_value="Journal">journal</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <name>x_957439_trainin_0_registrations</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,15 +51,15 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-27 09:08:03</sys_created_on>
-        <sys_id>38618bd52f2131103719f3ecf699b6d7</sys_id>
-        <sys_name>Course Name</sys_name>
+        <sys_created_on>2023-10-12 12:10:14</sys_created_on>
+        <sys_id>96cab81a2f3131103719f3ecf699b6c8</sys_id>
+        <sys_name>Approval history</sys_name>
         <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
-        <sys_update_name>sys_dictionary_x_957439_trainin_0_training_course_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_957439_trainin_0_registrations_approval_history</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 12:41:13</sys_updated_on>
+        <sys_updated_on>2023-10-12 12:10:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

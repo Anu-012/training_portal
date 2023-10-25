@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="course_name" label="Course Name" language="en" table="x_957439_trainin_0_training">
+    <sys_documentation element="certificate_names" label="Certificate Names" language="en" table="x_957439_trainin_0_trainer">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>course_name</element>
+            <element>certificate_names</element>
             <help/>
             <hint/>
-            <label>Course Name</label>
+            <label>Certificate Names</label>
             <language>en</language>
-            <name>x_957439_trainin_0_training</name>
-            <plural>Course Names</plural>
+            <name>x_957439_trainin_0_trainer</name>
+            <plural>Certificate Names</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-09-27 09:08:03</sys_created_on>
-            <sys_id>fc618bd52f2131103719f3ecf699b6d9</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_name>Course Name</sys_name>
+            <sys_created_on>2023-10-09 11:28:44</sys_created_on>
+            <sys_id>3ea419d12f3171103719f3ecf699b614</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Certificate Names</sys_name>
             <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
             <sys_policy/>
             <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
-            <sys_update_name>sys_documentation_x_957439_trainin_0_training_course_name_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_957439_trainin_0_trainer_certificate_names_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-12 12:22:47</sys_updated_on>
+            <sys_updated_on>2023-10-09 11:28:44</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
