@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="available_slots" table="x_957439_trainin_0_training">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="requestor_name" table="x_957439_trainin_0_trainer_registrations">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
+
 	// Add your code here
-	var inc = new GlideRecord('x_957439_trainin_0_registrations');
-	inc.addEncodedQuery('training_start_date='+current.sys_id+'^training_status=Confirmed');
-	inc.query();
-	return current.total_slots - inc.getRowCount(); // return the calculated value
+	return '';  // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Available Slots</column_label>
+        <column_label>Requestor Name</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:current.total_slots - count();function count(){var inc = new GlideRecord('x_957439_trainin_0_training');inc.addEncodedQuery('training_start_date='+current.sys_id+'^training_status=Confirmed');inc.query();return inc.getRowCount();}</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -28,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>available_slots</element>
+        <element>requestor_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_957439_trainin_0_training</name>
+        <max_length>32</max_length>
+        <name>x_957439_trainin_0_trainer_registrations</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,22 +51,22 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-27 09:08:02</sys_created_on>
-        <sys_id>fc618bd52f2131103719f3ecf699b653</sys_id>
-        <sys_name>Available Slots</sys_name>
+        <sys_created_on>2023-10-30 03:37:30</sys_created_on>
+        <sys_id>3dc0ffff2f0a31103719f3ecf699b668</sys_id>
+        <sys_name>Requestor Name</sys_name>
         <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
-        <sys_update_name>sys_dictionary_x_957439_trainin_0_training_available_slots</sys_update_name>
+        <sys_update_name>sys_dictionary_x_957439_trainin_0_trainer_registrations_requestor_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-01 16:36:38</sys_updated_on>
+        <sys_updated_on>2023-10-30 03:37:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>true</use_dynamic_default>
+        <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>true</virtual>
+        <virtual>false</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

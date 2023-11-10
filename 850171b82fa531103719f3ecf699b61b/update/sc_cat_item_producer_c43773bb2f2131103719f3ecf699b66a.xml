@@ -30,8 +30,8 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Trainee Registration Form</name>
-        <no_attachment_v2>true</no_attachment_v2>
+        <name>Trainer Registration Form</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -53,7 +53,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></post_insert_script>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=86204f672f2531103719f3ecf699b639&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c43773bb2f2131103719f3ecf699b66a&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
@@ -79,6 +79,8 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */
+//gs.sleep('5000');
+//gs.addInfoMessage("Your request " + current.number + " has been submitted successfully");
 producer.portal_redirect = "https://dev84667.service-now.com/learning";]]></script>
         <short_description>Registration Form</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
@@ -86,17 +88,17 @@ producer.portal_redirect = "https://dev84667.service-now.com/learning";]]></scri
         <state/>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-04 09:05:18</sys_created_on>
-        <sys_id>86204f672f2531103719f3ecf699b639</sys_id>
+        <sys_created_on>2023-10-05 07:29:00</sys_created_on>
+        <sys_id>c43773bb2f2131103719f3ecf699b66a</sys_id>
         <sys_mod_count>13</sys_mod_count>
-        <sys_name>Trainee Registration Form</sys_name>
+        <sys_name>Trainer Registration Form</sys_name>
         <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
-        <sys_update_name>sc_cat_item_producer_86204f672f2531103719f3ecf699b639</sys_update_name>
+        <sys_update_name>sc_cat_item_producer_c43773bb2f2131103719f3ecf699b66a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-05 18:11:42</sys_updated_on>
-        <table_name>x_957439_trainin_0_registrations</table_name>
+        <sys_updated_on>2023-11-07 15:58:17</sys_updated_on>
+        <table_name>x_957439_trainin_0_trainer_registrations</table_name>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
@@ -109,22 +111,22 @@ producer.portal_redirect = "https://dev84667.service-now.com/learning";]]></scri
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item_producer>
-    <sys_translated_text action="delete_multiple" query="documentkey=86204f672f2531103719f3ecf699b639"/>
-    <fx_price action="delete_multiple" query="id=86204f672f2531103719f3ecf699b639"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c43773bb2f2131103719f3ecf699b66a"/>
+    <fx_price action="delete_multiple" query="id=c43773bb2f2131103719f3ecf699b66a"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price</field>
-        <id>86204f672f2531103719f3ecf699b639</id>
+        <id>c43773bb2f2131103719f3ecf699b66a</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-04 09:05:19</sys_created_on>
-        <sys_id>05e3c36b2f2531103719f3ecf699b6e9</sys_id>
+        <sys_created_on>2023-10-05 07:29:00</sys_created_on>
+        <sys_id>8c773fbb2f2131103719f3ecf699b6ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-04 09:05:19</sys_updated_on>
+        <sys_updated_on>2023-10-05 07:29:00</sys_updated_on>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>

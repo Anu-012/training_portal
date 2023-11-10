@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Trainer Registration Form">c43773bb2f2131103719f3ecf699b66a</catalog_item>
+        <catalog_variable>IO:94ea21e92f3131103719f3ecf699b61f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 08:37:02</sys_created_on>
+        <sys_id>2566e6a52f9271103719f3ecf699b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>if_yes_mention_the_certifications_please_attach_the_certificates_below</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2566e6a52f9271103719f3ecf699b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 08:37:02</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make the hidden Variable visible onChange">b6b56e652f9271103719f3ecf699b624</ui_policy>
+        <variable>if_yes_mention_the_certifications_please_attach_the_certificates_below</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
