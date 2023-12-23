@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="a0b4d4242f8231103719f3ecf699b696" label="Trainer Registrations" max_length="40" name="x_957439_trainin_0_trainer_registrations" type="collection">
+        <element choice="3" default="not requested" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Not Yet Requested" value="not requested"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Requested" value="requested"/>
+            </choice>
+        </element>
+        <element label="Approval History" max_length="4000" name="approval_history" type="journal"/>
+        <element label="Skill set" mandatory="true" max_length="32" name="competency_head" reference="x_957439_trainin_0_competency" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Requestor Contact" max_length="40" name="requestor_contact" reference="sys_user" type="string"/>
+        <element label="Requestor Name" max_length="32" name="requestor_name" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="competency_head"/>
+        </index>
+        <index name="index2">
+            <element name="requestor_name"/>
+        </index>
+    </element>
+</database>

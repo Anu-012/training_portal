@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ba03f13c2fa531103719f3ecf699b659" label="Training" max_length="40" name="x_957439_trainin_0_training" type="collection">
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var inc = new GlideRecord('x_957439_trainin_0_registrations');&#13;&#10;&#9;inc.addEncodedQuery('training_start_date='+current.sys_id+'^training_status=Confirmed');&#13;&#10;&#9;inc.query();&#13;&#10;&#9;return current.total_slots - inc.getRowCount(); // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:current.total_slots - count();function count(){var inc = new GlideRecord('x_957439_trainin_0_training');inc.addEncodedQuery('training_start_date='+current.sys_id+'^training_status=Confirmed');inc.query();return inc.getRowCount();}" label="Available Slots" max_length="40" name="available_slots" read_only="true" type="integer" use_dynamic_default="true" virtual="true"/>
+        <element display="true" label="Course Name" mandatory="true" max_length="40" name="course_name" type="string"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Primary Trainer" mandatory="true" max_length="40" name="primary_trainer_s" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Secondary Trainer" max_length="40" name="secondary_trainer_s" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Total Slots" mandatory="true" max_length="40" name="total_slots" type="integer"/>
+        <element default="true" label="Training Active" max_length="20" name="training_active_inactive" type="boolean"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

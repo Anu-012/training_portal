@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Basics" source="com.snc.service">0d7c9747b4a32110320f8dc279c804b5</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 14:06:17</sys_created_on>
+        <sys_id>d272f5f82fa531103719f3ecf699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 14:06:17</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

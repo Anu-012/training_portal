@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
+        <collection>x_957439_trainin_0_registrations</collection>
+        <condition/>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&lt;div style="font-family: lato,arial,sans; max-width: 564px;"&gt;<br />&lt;table style="border-collapse: collapse; width: 100%;" border="0"&gt;<br />&lt;tbody&gt;<br />&lt;tr style="border-bottom: 1px solid #DADDE2;"&gt;<br />&lt;td style="width: 100%; padding-bottom: 24px;" align="center"&gt;&lt;span style="font-size: 24px; line-height: 36px; text-align: center ;"&gt;${particiant_name}'s request is awaiting your approval&lt;/span&gt;&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;tr&gt;<br />&lt;td height="24"&gt;&amp;nbsp;&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;tr&gt;<br />&lt;td style="width: 100%; font-size: 16px; line-height: 24px;"&gt;Hi ${particiant_name.manager}<br />&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;tr&gt;<br />&lt;td style="width: 100%; font-size: 16px; line-height: 24px; padding-top: 16px;"&gt;${particiant_name} recently opened request &lt;strong&gt;${number}<br />&lt;/strong&gt;, and we would like to inform you can approve either via the mail or through Training Portal.&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;tr&gt;<br />&lt;td style="width: 100%; height: 52px; padding-top: 16px;"&gt;&lt;span id="requestreject" class="btn" style="border-radius: 4px; border: 1px solid #4f52bd; padding: 6px 16px; color: #4f52bd;"&gt;${mailto:mailto.btn.rejection}&lt;/span&gt;&lt;span id="requestapprove" class="btn inverse" style="margin-left: 16px; border-radius: 4px; border: 1px solid #4f52bd; padding: 6px 16px; background-color: #4f52bd; color: #fff;"&gt;${mailto:mailto.btn.approval}&lt;/span&gt;&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;/tbody&gt;<br />&lt;/table&gt;<br />&lt;div style="margin-top: 16px; margin-bottom: 16px; font-size: 12pt;"&gt;${mail_script:request_approval}&lt;/div&gt;<br />&lt;div style="font-size: 12pt; padding-bottom: 8px; line-height: 24px;"&gt;Thank you,&lt;br /&gt;Fulfillment Team&lt;/div&gt;<br />&lt;/div&gt;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Approval Request to Managers</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>particiant_name.manager</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Registration Request : ${number} needs your approval</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-05 15:58:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>897319ce2f5a31103719f3ecf699b68a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Approval Request to Managers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sysevent_email_action_897319ce2f5a31103719f3ecf699b68a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 03:37:06</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sysevent_email_action_897319ce2f5a31103719f3ecf699b68a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Approval" name="Approval"&gt;1a9d02137f232200ee2e108c3ffa9113&lt;/category&gt;&lt;collection&gt;x_957439_trainin_0_registrations&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;multipart/mixed&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;triggered&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&amp;lt;div style="font-family: lato,arial,sans; max-width: 564px;"&amp;gt;&lt;br /&gt;&amp;lt;table style="border-collapse: collapse; width: 100%;" border="0"&amp;gt;&lt;br /&gt;&amp;lt;tbody&amp;gt;&lt;br /&gt;&amp;lt;tr style="border-bottom: 1px solid #DADDE2;"&amp;gt;&lt;br /&gt;&amp;lt;td style="width: 100%; padding-bottom: 24px;" align="center"&amp;gt;&amp;lt;span style="font-size: 24px; line-height: 36px; text-align: center ;"&amp;gt;${particiant_name}'s request is awaiting your approval&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt;&lt;br /&gt;&amp;lt;/tr&amp;gt;&lt;br /&gt;&amp;lt;tr&amp;gt;&lt;br /&gt;&amp;lt;td height="24"&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;&lt;br /&gt;&amp;lt;/tr&amp;gt;&lt;br /&gt;&amp;lt;tr&amp;gt;&lt;br /&gt;&amp;lt;td style="width: 100%; font-size: 16px; line-height: 24px;"&amp;gt;Hi ${particiant_name.manager}&lt;br /&gt;&amp;lt;/td&amp;gt;&lt;br /&gt;&amp;lt;/tr&amp;gt;&lt;br /&gt;&amp;lt;tr&amp;gt;&lt;br /&gt;&amp;lt;td style="width: 100%; font-size: 16px; line-height: 24px; padding-top: 16px;"&amp;gt;${particiant_name} recently opened request &amp;lt;strong&amp;gt;${number}&lt;br /&gt;&amp;lt;/strong&amp;gt;, and we would like to inform you can approve either via the mail or through Training Portal.&amp;lt;/td&amp;gt;&lt;br /&gt;&amp;lt;/tr&amp;gt;&lt;br /&gt;&amp;lt;tr&amp;gt;&lt;br /&gt;&amp;lt;td style="width: 100%; height: 52px; padding-top: 16px;"&amp;gt;&amp;lt;span id="requestreject" class="btn" style="border-radius: 4px; border: 1px solid #4f52bd; padding: 6px 16px; color: #4f52bd;"&amp;gt;${mailto:mailto.btn.rejection}&amp;lt;/span&amp;gt;&amp;lt;span id="requestapprove" class="btn inverse" style="margin-left: 16px; border-radius: 4px; border: 1px solid #4f52bd; padding: 6px 16px; background-color: #4f52bd; color: #fff;"&amp;gt;${mailto:mailto.btn.approval}&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt;&lt;br /&gt;&amp;lt;/tr&amp;gt;&lt;br /&gt;&amp;lt;/tbody&amp;gt;&lt;br /&gt;&amp;lt;/table&amp;gt;&lt;br /&gt;&amp;lt;div style="margin-top: 16px; margin-bottom: 16px; font-size: 12pt;"&amp;gt;${mail_script:request_approval}&amp;lt;/div&amp;gt;&lt;br /&gt;&amp;lt;div style="font-size: 12pt; padding-bottom: 8px; line-height: 24px;"&amp;gt;Thank you,&amp;lt;br /&amp;gt;Fulfillment Team&amp;lt;/div&amp;gt;&lt;br /&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Approval Request to Managers&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;particiant_name.manager&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Registration Request : ${number} needs your approval&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-05 15:58:36&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;897319ce2f5a31103719f3ecf699b68a&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Approval Request to Managers&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Training Management" source="x_957439_trainin_0"&gt;850171b82fa531103719f3ecf699b61b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Management"&gt;850171b82fa531103719f3ecf699b61b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_897319ce2f5a31103719f3ecf699b68a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 03:37:06&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Employee notification template"&gt;1462e7ca918a3010f877b1d70a4d6a3d&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1015404367</payload_hash>
+        <record_name>Approval Request to Managers</record_name>
+        <reverted_from/>
+        <source>8d0171b82fa531103719f3ecf699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 03:37:06</sys_created_on>
+        <sys_id>17357f862fd271103719f3ecf699b613</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba2b49a5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 03:37:06</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>1f357f86b4d271101a4c5f61fe938b12</update_guid>
+        <update_guid_history>1f357f86b4d271101a4c5f61fe938b12:1015404367,63ecddc6c89a3110dbd726d34423cd6f:2062811116,a76c1906999a31104ac2a0083e141a5a:-1412537688,47b819ce9b5a31101aab374e48af5c35:-1070366051,1f555102df9a31109b013b232c28eeba:-483259810</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 05:12:35</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>2512bbcb85f94b4085ba7d61e0a0f110</sys_id>
+        <sys_metadata>897319ce2f5a31103719f3ecf699b68a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Request to Managers</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent display_value="Registrations">181286e72f2131103719f3ecf699b6f6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_897319ce2f5a31103719f3ecf699b68a</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_897319ce2f5a31103719f3ecf699b68a">17357f862fd271103719f3ecf699b613</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:12:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

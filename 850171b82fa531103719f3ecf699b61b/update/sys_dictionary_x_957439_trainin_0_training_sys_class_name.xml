@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="x_957439_trainin_0_training">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -19,7 +19,7 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value/>
+        <dynamic_default_value display_value="Get Current Table Name">b5cb83a85f220100a9ad2572f2b4773c</dynamic_default_value>
         <dynamic_ref_qual/>
         <element>sys_class_name</element>
         <element_reference>false</element_reference>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-25 14:08:48</sys_created_on>
-        <sys_id>8303f13c2fa531103719f3ecf699b680</sys_id>
         <sys_name>Class</sys_name>
         <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
         <sys_policy/>
@@ -59,7 +58,7 @@
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
+        <use_dynamic_default>true</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type/>

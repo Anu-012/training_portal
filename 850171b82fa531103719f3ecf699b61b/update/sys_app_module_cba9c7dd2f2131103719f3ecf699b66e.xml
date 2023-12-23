@@ -4,7 +4,7 @@
         <application display_value="Training Management">8428cbdd2f2131103719f3ecf699b6a6</application>
         <assessment/>
         <device_type/>
-        <filter table="x_957439_trainin_0_training">training_active_inactive=true^EQ<item display_value="true" endquery="false" field="training_active_inactive" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter table="x_957439_trainin_0_training">training_active_inactive=true^EQ<item endquery="false" field="training_active_inactive" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint>Available Tranings</hint>

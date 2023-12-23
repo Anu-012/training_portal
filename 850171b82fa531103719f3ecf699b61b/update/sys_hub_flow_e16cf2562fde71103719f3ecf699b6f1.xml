@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e16cf2562fde71103719f3ecf699b6f1</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Reminder for Registrations</sys_name>
         <sys_overrides/>
         <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
         <sys_update_name>sys_hub_flow_e16cf2562fde71103719f3ecf699b6f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-09 06:01:24</sys_updated_on>
+        <sys_updated_on>2023-11-10 17:08:07</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e16cf2562fde71103719f3ecf699b6f1"/>
@@ -74,16 +74,16 @@
         <table>x_957439_trainin_0_registrations</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>e16cf2562fde71103719f3ecf699b6f1</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-09 06:01:24</sys_created_on>
         <sys_id>c203fb8f2f1231103719f3ecf699b603</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-09 06:01:24</sys_updated_on>
+        <sys_updated_on>2023-11-10 17:08:09</sys_updated_on>
         <trigger display_value="">0bd3875e2fde71103719f3ecf699b601</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e16cf2562fde71103719f3ecf699b6f1^sys_idNOT INc203fb8f2f1231103719f3ecf699b603"/>
@@ -431,10 +431,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-09 05:41:48</sys_created_on>
         <sys_id>878ea78b2f1231103719f3ecf699b673</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-09 06:01:24</sys_updated_on>
+        <sys_updated_by>abraham.lincoln</sys_updated_by>
+        <sys_updated_on>2023-11-09 06:06:05</sys_updated_on>
         <ui_id>0a034d3a-6420-481b-acce-ba08f1afbc9c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=878ea78b2f1231103719f3ecf699b673"/>
@@ -1128,7 +1128,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"08f0079a2fde71103719f3ecf699b66b","name":"plan","plan_signature":null}}</plan>
         <plan_id>e16cf2562fde71103719f3ecf699b6f1</plan_id>
-        <snapshot>3be0c39a2fde71103719f3ecf699b6ee</snapshot>
+        <snapshot>ee147fcf2f1231103719f3ecf699b65f</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-06 18:27:05</sys_created_on>
         <sys_domain>global</sys_domain>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8a72f5f82fa531103719f3ecf699b623" extends="sys_user" label="Trainee" max_length="40" name="x_957439_trainin_0_trainee" type="collection"/>
+</database>

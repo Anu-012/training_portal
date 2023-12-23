@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">ad8c803c2f9e31103719f3ecf699b641</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-01 13:27:57</sys_created_on>
+        <sys_id>ed8c803c2f9e31103719f3ecf699b643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sp_column_ed8c803c2f9e31103719f3ecf699b643</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 13:27:57</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sp_column_ed8c803c2f9e31103719f3ecf699b643</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">ad8c803c2f9e31103719f3ecf699b641</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-01 13:27:57</sys_created_on><sys_id>ed8c803c2f9e31103719f3ecf699b643</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package><sys_policy/><sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope><sys_update_name>sp_column_ed8c803c2f9e31103719f3ecf699b643</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-01 13:27:57</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1194296878</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>8d0171b82fa531103719f3ecf699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-01 13:27:57</sys_created_on>
+        <sys_id>298c803c2f9e31103719f3ecf699b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b8b11be230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 13:27:57</sys_updated_on>
+        <type>Column</type>
+        <update_guid>6d8c803c359e3110ab39527776199244</update_guid>
+        <update_guid_history>6d8c803c359e3110ab39527776199244:1194296878</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">500149d72f1631103719f3ecf699b61a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 11:42:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>28e62dc09c4b46f9b5d8b9260d1412f1</sys_id>
+        <sys_metadata>ed8c803c2f9e31103719f3ecf699b643</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sp_column_ed8c803c2f9e31103719f3ecf699b643</sys_update_name>
+        <sys_update_version display_value="sp_column_ed8c803c2f9e31103719f3ecf699b643">298c803c2f9e31103719f3ecf699b645</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 11:42:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">d576b3942f0231103719f3ecf699b645</sp_column>
+        <sp_widget display_value="Surveys and Assessments">5cbb8f1053313010561cddeeff7b1272</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 08:32:47</sys_created_on>
+        <sys_id>34e511f82f4231103719f3ecf699b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sp_instance_34e511f82f4231103719f3ecf699b6d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 08:32:47</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=34e511f82f4231103719f3ecf699b6d9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sp_instance_34e511f82f4231103719f3ecf699b6d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">d576b3942f0231103719f3ecf699b645</sp_column><sp_widget display_value="Surveys and Assessments">5cbb8f1053313010561cddeeff7b1272</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-20 08:32:47</sys_created_on><sys_id>34e511f82f4231103719f3ecf699b6d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package><sys_policy/><sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope><sys_update_name>sp_instance_34e511f82f4231103719f3ecf699b6d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-20 08:32:47</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=34e511f82f4231103719f3ecf699b6d9"/></record_update>]]></payload>
+        <payload_hash>1393924847</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8d0171b82fa531103719f3ecf699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 08:32:48</sys_created_on>
+        <sys_id>c1e511f82f4231103719f3ecf699b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b4c3734bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 08:32:48</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>09e511f8aa423110ffbb103aae247bda</update_guid>
+        <update_guid_history>09e511f8aa423110ffbb103aae247bda:1393924847</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8d8699f82f4231103719f3ecf699b680</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 08:35:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0a5ce09b58d14cb299e40908d2e26381</sys_id>
+        <sys_metadata>34e511f82f4231103719f3ecf699b6d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sp_instance_34e511f82f4231103719f3ecf699b6d9</sys_update_name>
+        <sys_update_version display_value="sp_instance_34e511f82f4231103719f3ecf699b6d9">c1e511f82f4231103719f3ecf699b6db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 08:35:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

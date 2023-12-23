@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fa0bf8992fbd31103719f3ecf699b6da" label="Competency" max_length="40" name="x_957439_trainin_0_competency" type="collection">
+        <element display="true" label="Competency" max_length="40" name="domain" type="string"/>
+        <element label="Competency Head" max_length="40" name="name" reference="sys_user" type="reference"/>
+    </element>
+</database>

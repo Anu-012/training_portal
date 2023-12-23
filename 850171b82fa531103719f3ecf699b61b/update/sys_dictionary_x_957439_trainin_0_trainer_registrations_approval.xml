@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-30 03:37:30</sys_created_on>
-        <sys_id>8d30377b2f0a31103719f3ecf699b6e8</sys_id>
         <sys_name>Approval</sys_name>
         <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
         <sys_policy/>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="a55579bc58a53110e0fcd17e384ad700" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_957439_trainin_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-09-25 14:18:56</sys_created_on>
+            <sys_id>295579bc60a5311024587589c976ba01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="a15579bca3a531102333d8a25ed48401">a55579bc58a53110e0fcd17e384ad700</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2023-09-25 14:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-09-25 14:18:56</sys_created_on>
+            <sys_id>215579bc6ea531109ff16a798fccba00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="a15579bca3a531102333d8a25ed48401">a55579bc58a53110e0fcd17e384ad700</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2023-09-25 14:18:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-09-25 14:18:56</sys_created_on>
+            <sys_id>695579bc40a5311048bcc4aea19da000</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="a15579bca3a531102333d8a25ed48401">a55579bc58a53110e0fcd17e384ad700</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2023-09-25 14:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2023-09-25 14:18:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a55579bc58a53110e0fcd17e384ad700</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+            <sys_update_name>sys_ui_section_a55579bc58a53110e0fcd17e384ad700</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2023-09-25 14:18:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal settings (x_957439_trainin_0)" name="custom_portal_settings_x_957439_trainin_0">a15579bca3a531102333d8a25ed48401</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sys_ui_section_a55579bc58a53110e0fcd17e384ad700</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="a55579bc58a53110e0fcd17e384ad700" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_957439_trainin_0"><sys_ui_element action="INSERT_OR_UPDATE"><element>time_zone</element><position>0</position><sys_created_by>system</sys_created_by><sys_created_on>2023-09-25 14:18:56</sys_created_on><sys_id>295579bc60a5311024587589c976ba01</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="a15579bca3a531102333d8a25ed48401">a55579bc58a53110e0fcd17e384ad700</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-25 14:18:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>system</sys_created_by><sys_created_on>2023-09-25 14:18:56</sys_created_on><sys_id>215579bc6ea531109ff16a798fccba00</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="a15579bca3a531102333d8a25ed48401">a55579bc58a53110e0fcd17e384ad700</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-25 14:18:56</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>preferred_language</element><position>2</position><sys_created_by>system</sys_created_by><sys_created_on>2023-09-25 14:18:56</sys_created_on><sys_id>695579bc40a5311048bcc4aea19da000</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="a15579bca3a531102333d8a25ed48401">a55579bc58a53110e0fcd17e384ad700</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-25 14:18:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sys_user</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-09-25 14:18:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a55579bc58a53110e0fcd17e384ad700</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user</sys_name><sys_overrides/><sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package><sys_policy/><sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope><sys_update_name>sys_ui_section_a55579bc58a53110e0fcd17e384ad700</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-25 14:18:56</sys_updated_on><sys_user/><title>false</title><view display_value="Custom portal settings (x_957439_trainin_0)" name="custom_portal_settings_x_957439_trainin_0">a15579bca3a531102333d8a25ed48401</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1777901968</payload_hash>
+        <record_name>User</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 14:30:20</sys_created_on>
+        <sys_id>eef7f1302fe531103719f3ecf699b611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18accbf8e1b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 14:30:20</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>aef7f13000e531104396966e087af911</update_guid>
+        <update_guid_history>aef7f13000e531104396966e087af911:1777901968</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 14:30:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>cb6aa1fc91dc43fab316731bef7eed44</sys_id>
+        <sys_metadata>a55579bc58a53110e0fcd17e384ad700</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent display_value="User">94991f03b4232110320f8dc279c80457</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sys_ui_section_a55579bc58a53110e0fcd17e384ad700</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_a55579bc58a53110e0fcd17e384ad700">eef7f1302fe531103719f3ecf699b611</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 14:30:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

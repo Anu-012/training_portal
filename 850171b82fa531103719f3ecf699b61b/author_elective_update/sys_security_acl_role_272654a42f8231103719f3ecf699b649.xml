@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-19 09:15:58</sys_created_on>
+        <sys_id>272654a42f8231103719f3ecf699b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_957439_trainin_0_trainer_registrations.x_957439_trainin_0.trainer_registrations_user</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_security_acl display_value="x_957439_trainin_0_trainer_registrations">5b2654a42f8231103719f3ecf699b645</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_272654a42f8231103719f3ecf699b649</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-19 09:15:58</sys_updated_on>
+        <sys_user_role display_value="x_957439_trainin_0.trainer_registrations_user" name="x_957439_trainin_0.trainer_registrations_user">8f2654a42f8231103719f3ecf699b62d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sys_security_acl_role_272654a42f8231103719f3ecf699b649</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-19 09:15:58</sys_created_on><sys_id>272654a42f8231103719f3ecf699b649</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_957439_trainin_0_trainer_registrations.x_957439_trainin_0.trainer_registrations_user</sys_name><sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package><sys_policy/><sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope><sys_security_acl display_value="x_957439_trainin_0_trainer_registrations">5b2654a42f8231103719f3ecf699b645</sys_security_acl><sys_update_name>sys_security_acl_role_272654a42f8231103719f3ecf699b649</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-19 09:15:58</sys_updated_on><sys_user_role display_value="x_957439_trainin_0.trainer_registrations_user" name="x_957439_trainin_0.trainer_registrations_user">8f2654a42f8231103719f3ecf699b62d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-448303993</payload_hash>
+        <record_name>x_957439_trainin_0_trainer_registrations.x_957439_trainin_0.trainer_registrations_user</record_name>
+        <reverted_from/>
+        <source>8d0171b82fa531103719f3ecf699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-19 09:15:58</sys_created_on>
+        <sys_id>232654a42f8231103719f3ecf699b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b47385fae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-19 09:15:58</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>672654a454823110840224c7c75ec34b</update_guid>
+        <update_guid_history>672654a454823110840224c7c75ec34b:-448303993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_957439_trainin_0_trainer_registrations.x_957439_trainin_0.trainer_registration">bafc94a82f8231103719f3ecf699b64c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-19 09:45:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>8870ba47e89e4dfc9c3646d2f41299e4</sys_id>
+        <sys_metadata>272654a42f8231103719f3ecf699b649</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_957439_trainin_0_trainer_registrations.x_957439_trainin_0.trainer_registrations_user</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent display_value="x_957439_trainin_0_trainer_registrations">5b2654a42f8231103719f3ecf699b645</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_272654a42f8231103719f3ecf699b649</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_272654a42f8231103719f3ecf699b649">232654a42f8231103719f3ecf699b64c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-19 09:45:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

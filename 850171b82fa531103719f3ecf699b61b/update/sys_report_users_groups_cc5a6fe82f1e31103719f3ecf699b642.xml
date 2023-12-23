@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="">485a6fe82f1e31103719f3ecf699b642</report_id>
+        <report_id display_value="Available Trainings">485a6fe82f1e31103719f3ecf699b642</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-01 10:58:29</sys_created_on>

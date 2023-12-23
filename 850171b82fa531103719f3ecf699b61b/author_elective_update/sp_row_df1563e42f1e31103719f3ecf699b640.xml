@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Training Portal - Container 4">75f4a3e42f1e31103719f3ecf699b6ae</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-01 10:35:46</sys_created_on>
+        <sys_id>df1563e42f1e31103719f3ecf699b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sp_row_df1563e42f1e31103719f3ecf699b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 10:35:46</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sp_row_df1563e42f1e31103719f3ecf699b640</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Training Portal - Container 4">75f4a3e42f1e31103719f3ecf699b6ae</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-01 10:35:46</sys_created_on><sys_id>df1563e42f1e31103719f3ecf699b640</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package><sys_policy/><sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope><sys_update_name>sp_row_df1563e42f1e31103719f3ecf699b640</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-01 10:35:46</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>871156303</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>8d0171b82fa531103719f3ecf699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-01 10:35:46</sys_created_on>
+        <sys_id>131563e42f1e31103719f3ecf699b643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b8a7419ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 10:35:46</sys_updated_on>
+        <type>Row</type>
+        <update_guid>571563e4761e3110ab856cb85f572942</update_guid>
+        <update_guid_history>571563e4761e3110ab856cb85f572942:871156303</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">d8ad20d72f1631103719f3ecf699b6b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 10:17:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>306536c0cf3d4051b0b74f22b884f7e1</sys_id>
+        <sys_metadata>df1563e42f1e31103719f3ecf699b640</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sp_row_df1563e42f1e31103719f3ecf699b640</sys_update_name>
+        <sys_update_version display_value="sp_row_df1563e42f1e31103719f3ecf699b640">131563e42f1e31103719f3ecf699b643</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:17:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

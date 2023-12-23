@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1f3126272fa131103719f3ecf699b666" label="Trainers" max_length="40" name="x_957439_trainin_0_trainer" type="collection">
+        <element choice="3" default="not requested" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Not Yet Requested" value="not requested"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Requested" value="requested"/>
+            </choice>
+        </element>
+        <element label="Approval history" max_length="4000" name="approval_history" type="journal"/>
+        <element choice="1" label="Certificates" max_length="20" name="certificates" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
+        </element>
+        <element label="Certificate Names" max_length="150" name="certificate_names" type="string"/>
+        <element display="true" label="Skill_set" max_length="40" name="skill_set" reference="x_957439_trainin_0_competency" type="glide_list"/>
+        <element label="Trainer email ID" max_length="40" name="trainer_email_id" reference="sys_user" type="string"/>
+        <element label="Trainer_Name" max_length="40" name="trainer_name" reference="sys_user" type="reference"/>
+    </element>
+</database>

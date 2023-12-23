@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <glyph>folder-open</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">525396da2f0231103719f3ecf699b6dd</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 04:41:11</sys_created_on>
+        <sys_id>34d09e1a2f0231103719f3ecf699b6da</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Provide your feedback</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sp_instance_link_34d09e1a2f0231103719f3ecf699b6da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 13:17:36</sys_updated_on>
+        <title>Provide your feedback</title>
+        <type>url</type>
+        <url>/learning?id=public_survey&amp;type_id=80f1d9fc2f0231103719f3ecf699b682</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=34d09e1a2f0231103719f3ecf699b6da"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sp_instance_link_34d09e1a2f0231103719f3ecf699b6da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;info&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;folder-open&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;525396da2f0231103719f3ecf699b6dd&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-25 04:41:11&lt;/sys_created_on&gt;&lt;sys_id&gt;34d09e1a2f0231103719f3ecf699b6da&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Provide your feedback&lt;/sys_name&gt;&lt;sys_package display_value="Training Management" source="x_957439_trainin_0"&gt;850171b82fa531103719f3ecf699b61b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Management"&gt;850171b82fa531103719f3ecf699b61b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_34d09e1a2f0231103719f3ecf699b6da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-01 13:17:36&lt;/sys_updated_on&gt;&lt;title&gt;Provide your feedback&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;/learning?id=public_survey&amp;amp;type_id=80f1d9fc2f0231103719f3ecf699b682&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=34d09e1a2f0231103719f3ecf699b6da"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1232987682</payload_hash>
+        <record_name>Provide your feedback</record_name>
+        <reverted_from/>
+        <source>8d0171b82fa531103719f3ecf699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-01 13:17:36</sys_created_on>
+        <sys_id>f12a8c782f9e31103719f3ecf699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b8b0843030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 13:17:36</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>f92a8c782c9e311058f16c329f95079f</update_guid>
+        <update_guid_history>f92a8c782c9e311058f16c329f95079f:-1232987682,bd2a4c78009e31108385684ae2aa3d00:1865485,7162f194bade7110becde4010649ac63:-1232987682,54352ff3900a31101f095ffd497a2862:52239041,8a63de5aa702311046a36a1ffda028c9:-1230732867,e3915a1a26023110addc67ec6e0fdc0d:-1894806587,6441525af602311055cfa2efff65fb7d:-537021737,12f0961a0f02311068f75fabba6c9c3a:2144426650,34d09e1a86023110c4bee8a3076b39dc:1981437265</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Provide your feedback">d93ac8782f9e31103719f3ecf699b666</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-01 13:17:51</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>3fd8ac50392b46fcb7f418a8ce3fab10</sys_id>
+        <sys_metadata>34d09e1a2f0231103719f3ecf699b6da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Provide your feedback</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sp_instance_link_34d09e1a2f0231103719f3ecf699b6da</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_34d09e1a2f0231103719f3ecf699b6da">f12a8c782f9e31103719f3ecf699b6a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-01 13:17:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

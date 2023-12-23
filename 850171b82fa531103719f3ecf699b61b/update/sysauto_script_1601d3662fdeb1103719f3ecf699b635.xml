@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Reminder Trigger </name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 01:00:00</run_period>
+        <run_start>2023-11-07 14:15:54</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var run3 = new GlideRecord('x_957439_trainin_0_trainer_registrations');
+run3.addEncodedQuery('approval=requested^sys_created_onRELATIVEGT@dayofweek@ago@3^sys_created_onRELATIVELT@dayofweek@ago@2');
+run3.query();
+while(run3.next())
+{
+gs.eventQueue('x_957439_trainin_0.reminder3', run3);
+}
+
+var run7 = new GlideRecord('x_957439_trainin_0_trainer_registrations');
+run7.addEncodedQuery('approval=requested^sys_created_onRELATIVEGT@dayofweek@ago@7^sys_created_onRELATIVELT@dayofweek@ago@6');
+run7.query();
+while(run7.next())
+{
+gs.eventQueue('x_957439_trainin_0.reminder7', run7);
+}
+
+var runR3 = new GlideRecord('x_957439_trainin_0_registrations');
+runR3.addEncodedQuery('approval=requested^sys_created_onRELATIVEGT@dayofweek@ago@3^sys_created_onRELATIVELT@dayofweek@ago@2');
+runR3.query();
+while(runR3.next())
+{
+gs.eventQueue('x_957439_trainin_0.reminder3', runR3);
+}
+
+var runR7 = new GlideRecord('x_957439_trainin_0_registrations');
+runR7.addEncodedQuery('approval=requested^sys_created_onRELATIVEGT@dayofweek@ago@7^sys_created_onRELATIVELT@dayofweek@ago@6');
+runR7.query();
+while(runR7.next())
+{
+gs.eventQueue('x_957439_trainin_0.reminder7', runR7);
+}
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 14:34:39</sys_created_on>
+        <sys_id>1601d3662fdeb1103719f3ecf699b635</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Reminder Trigger </sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sysauto_script_1601d3662fdeb1103719f3ecf699b635</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 14:58:54</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

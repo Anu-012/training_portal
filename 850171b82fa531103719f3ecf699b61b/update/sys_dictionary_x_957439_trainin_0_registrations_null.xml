@@ -52,14 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-04 06:26:15</sys_created_on>
-        <sys_id>4b7fd2a72fa131103719f3ecf699b6ab</sys_id>
         <sys_name>x_957439_trainin_0_registrations</sys_name>
         <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
         <sys_update_name>sys_dictionary_x_957439_trainin_0_registrations_null</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-07 17:07:53</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-11 11:49:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

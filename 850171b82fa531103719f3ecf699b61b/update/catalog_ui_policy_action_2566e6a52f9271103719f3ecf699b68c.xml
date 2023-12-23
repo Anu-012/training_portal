@@ -20,7 +20,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-11-04 08:37:02</sys_updated_on>
         <table/>
-        <ui_policy display_value="Make the hidden Variable visible onChange">b6b56e652f9271103719f3ecf699b624</ui_policy>
+        <ui_policy display_value="Make the hidden Variable visible ">b6b56e652f9271103719f3ecf699b624</ui_policy>
         <variable>if_yes_mention_the_certifications_please_attach_the_certificates_below</variable>
         <variable_set/>
         <visible>true</visible>

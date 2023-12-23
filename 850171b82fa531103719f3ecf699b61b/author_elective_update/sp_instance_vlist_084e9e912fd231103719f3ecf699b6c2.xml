@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <display_field>course_name</display_field>
+        <field_list/>
+        <filter table="x_957439_trainin_0_training">training_active_inactive=true<item endquery="false" field="training_active_inactive" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </filter>
+        <glyph>book</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">df33c15b2f5631103719f3ecf699b6ae</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 13:21:36</sys_created_on>
+        <sys_id>084e9e912fd231103719f3ecf699b6c2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sp_instance_vlist_084e9e912fd231103719f3ecf699b6c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 11:52:22</sys_updated_on>
+        <table>x_957439_trainin_0_training</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "available_slots,primary_trainer_s",
+		"displayValue": "available_slots,primary_trainer_s"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=084e9e912fd231103719f3ecf699b6c2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sp_instance_vlist_084e9e912fd231103719f3ecf699b6c2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;info&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;course_name&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="x_957439_trainin_0_training"&gt;training_active_inactive=true&lt;item endquery="false" field="training_active_inactive" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;/filter&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;df33c15b2f5631103719f3ecf699b6ae&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-03 13:21:36&lt;/sys_created_on&gt;&lt;sys_id&gt;084e9e912fd231103719f3ecf699b6c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Training Management" source="x_957439_trainin_0"&gt;850171b82fa531103719f3ecf699b61b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Management"&gt;850171b82fa531103719f3ecf699b61b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_084e9e912fd231103719f3ecf699b6c2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-09 11:52:22&lt;/sys_updated_on&gt;&lt;table&gt;x_957439_trainin_0_training&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "available_slots,primary_trainer_s",
+		"displayValue": "available_slots,primary_trainer_s"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=084e9e912fd231103719f3ecf699b6c2"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-678201200</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8d0171b82fa531103719f3ecf699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 11:52:23</sys_created_on>
+        <sys_id>135309db2f5631103719f3ecf699b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bb3ed1cf60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 11:52:23</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>1b5309dbd65631107002f1ffd6236a8c</update_guid>
+        <update_guid_history>1b5309dbd65631107002f1ffd6236a8c:-678201200,1f5309db39563110414f23508f2bbd87:315776628,384385db4856311003c7132f414ab980:-678201200,6741855b0a5631101254704a08fc2aff:-121874756,590ea4d7f7163110eed3d6908cef2bc6:1971528471,036d6c9741163110919c38ec7d16d331:2113685596,998e9e91e9d23110c6d11a048dbc03e1:1564309154,8c4e9e91ddd23110fa12967dba77e4c3:859732409</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4f6349db2f5631103719f3ecf699b64f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 11:52:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>33f4ac663f144d7c93e384875e521bb9</sys_id>
+        <sys_metadata>084e9e912fd231103719f3ecf699b6c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_084e9e912fd231103719f3ecf699b6c2</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_084e9e912fd231103719f3ecf699b6c2">135309db2f5631103719f3ecf699b68d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 11:52:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

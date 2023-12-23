@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="181286e72f2131103719f3ecf699b6f6" label="Registrations" max_length="40" name="x_957439_trainin_0_registrations" type="collection">
+        <element choice="3" default="not requested" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Not Yet Requested" value="not requested"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Requested" value="requested"/>
+            </choice>
+        </element>
+        <element label="Approval history" max_length="4000" name="approval_history" type="journal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Particiant Name" max_length="40" name="particiant_name" reference="sys_user" type="reference"/>
+        <element label="Participant Contact" max_length="40" name="participant_contact" reference="sys_user" type="string"/>
+        <element label="Training" max_length="32" name="training_start_date" reference="x_957439_trainin_0_training" reference_qual="start_dateISNOTEMPTY^EQ" reference_qual_condition="start_dateISNOTEMPTY^EQ" type="reference"/>
+        <element choice="1" label="Training Status" max_length="40" name="training_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Attended" value="Attended"/>
+                <element inactive_on_update="false" label="Awaiting approval" value="Awaiting approval"/>
+                <element inactive_on_update="false" label="Closed Incomplete" value="Closed Incomplete"/>
+                <element inactive_on_update="false" label="Confirmed" value="Confirmed"/>
+                <element inactive_on_update="false" label="Rejected" value="Rejected"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="training_start_date"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color>#0d1926</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Training Portal - Container 4</name>
+        <order>4</order>
+        <sp_page display_value="training_landing">07074e5c2f3531103719f3ecf699b61a</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-19 06:56:56</sys_created_on>
+        <sys_id>b25673d02f0231103719f3ecf699b658</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Training Portal - Container 4</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_update_name>sp_container_b25673d02f0231103719f3ecf699b658</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 17:15:38</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management">850171b82fa531103719f3ecf699b61b</application>
+        <file_path/>
+        <instance_id>f60e0497db41f30007072f17d496198c</instance_id>
+        <instance_name>dev84667</instance_name>
+        <name>sp_container_b25673d02f0231103719f3ecf699b658</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color>#0d1926</background_color><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Training Portal - Container 4</name><order>4</order><sp_page display_value="training_landing">07074e5c2f3531103719f3ecf699b61a</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-19 06:56:56</sys_created_on><sys_id>b25673d02f0231103719f3ecf699b658</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Training Portal - Container 4</sys_name><sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package><sys_policy/><sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope><sys_update_name>sp_container_b25673d02f0231103719f3ecf699b658</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-09 17:15:38</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-717107636</payload_hash>
+        <record_name>Training Portal - Container 4</record_name>
+        <reverted_from/>
+        <source>8d0171b82fa531103719f3ecf699b61d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 17:15:38</sys_created_on>
+        <sys_id>aa5dc6df2f5a31103719f3ecf699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bb5150f3c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 17:15:38</sys_updated_on>
+        <type>Container</type>
+        <update_guid>625dc6dfba5a3110c2b71f07037afb90</update_guid>
+        <update_guid_history>625dc6dfba5a3110c2b71f07037afb90:-717107636,c730088520523110a78f43a3f0b698c3:18737835,fe5673d076023110135d2406bd6f935a:-2031623702</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Training Portal - Container 4">a07dc6df2f5a31103719f3ecf699b65e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 17:16:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0808a4008efd4213849af4f124ec0961</sys_id>
+        <sys_metadata>b25673d02f0231103719f3ecf699b658</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Portal - Container 4</sys_name>
+        <sys_package display_value="Training Management" source="x_957439_trainin_0">850171b82fa531103719f3ecf699b61b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Management">850171b82fa531103719f3ecf699b61b</sys_scope>
+        <sys_scope_delete display_value="">22f9e317171d4dd28bbd7cdb63fb1484</sys_scope_delete>
+        <sys_update_name>sp_container_b25673d02f0231103719f3ecf699b658</sys_update_name>
+        <sys_update_version display_value="sp_container_b25673d02f0231103719f3ecf699b658">aa5dc6df2f5a31103719f3ecf699b690</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 17:16:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
