@@ -11,7 +11,7 @@ This project aims at providing a customized Training Portal with automated train
 
 ## Repo Structure
 1. /update_sets: Exported update sets(XML)
-2. /scripts:
+2. /scripts: Global and Scoped Application, Business Rules, Catalog Client Scripts, Script Includes
 3. /documentation: Design explanation
 4. /screenshots: Training Portal UI/Backend screenshots
 
