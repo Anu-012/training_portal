@@ -18,7 +18,8 @@ This project aims at providing a customized Training Portal with automated train
 ## How to use
 1. Import the update set XML from 'Retrieved Update Sets' in your local instance
 2. Preview and Commit
-3. Append the instance URL with /sp to open the training portal
+3. Append the instance URL with /learning to open the training portal
+   (XMLs are not uploaded hence documented the application using exported scripts, screenshots, and design documentation
 
 
 
