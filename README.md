@@ -10,16 +10,9 @@ This project aims at providing a customized Training Portal with automated train
 - Provides employees with a user-friendly interface to explore and enroll in training sessions, the application will encourage a culture of continuous learning, leading to higher employee engagement and motivation.
 
 ## Repo Structure
-1. /update_sets: Exported update sets(XML)
+1. /architecture: Design overview
 2. /scripts: Global and Scoped Application, Business Rules, Catalog Client Scripts, Script Includes
-3. /documentation: Design explanation
-4. /screenshots: Training Portal UI/Backend screenshots
-
-## How to use
-1. Import the update set XML from 'Retrieved Update Sets' in your local instance
-2. Preview and Commit
-3. Append the instance URL with /learning to open the training portal
-   (XMLs are not uploaded hence documented the application using exported scripts, screenshots, and design documentation
+3. /screenshots: Training Portal UI/Backend screenshots
 
 
 
