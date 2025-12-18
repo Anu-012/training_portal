@@ -1,0 +1,6 @@
+##Training Portal Overview
+The Training Portal Homepage contains Approval requests, list of enrolled registrations for the Employee in the header menu.
+It contains two separate widgets for the registration form submission for two separate entities – trainees and trainers.
+The portal also has a feedback submission form which is open for all the users who login.
+The approval list is visible only to the approvers.
+The available monthly trainings are available in training calendar along with the slot availability of the current trainings.
