@@ -11,8 +11,12 @@ This project aims at providing a customized Training Portal with automated train
 
 ## Repo Structure
 1. /architecture: Design overview
-2. /scripts: Global and Scoped Application, Business Rules, Catalog Client Scripts, Script Includes
+2. /technologies used: Record Producers, Business Rules, Catalog Client Scripts, Notifications, Survey Designer
 3. /screenshots: Training Portal UI/Backend screenshots
 
+## How it Works
+1. User logs into the training portal- appending the native instance URL with /learning
+2. The Training Portal Homepage contains Approval requests, list of enrolled registrations for the Employee in the header menu.
+3. There are two forms available - 
 
 
