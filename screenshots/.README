@@ -5,3 +5,26 @@ It contains two separate widgets for the registration form submission for two se
 The portal also has a feedback submission form which is open for all the users who login.
 The approval list is visible only to the approvers.
 The available monthly trainings are available in training calendar along with the slot availability of the current trainings.
+
+## Register for Training
+
+One of the registration forms present in the portal.
+This is for the employees who want to register themselves for any specific training.
+They can select the training of their choice from among the training bucket.
+Submit request to their respective manager for approval.
+Once approved, the details of the upcoming trainings will be shared to the user via email notifications.
+
+## Want to be a Trainer?
+
+Another registration form present in the portal.
+This is for the trainers(including internal employees) who want to register themselves for becoming a certified trainer.
+They can select their primary skill set and then submit request to their respective competency head for approval.
+Once approved, the user will become a trainer based on the skill set selected.
+
+## Provide Feedback
+
+The logged in user is free to give feedback on the experience with the training portal and its processes.
+If required, an incident can be triggered with the request number generated for assisting the user with any query.
+These surveys designed via Survey Designer helps to interact with the system and enhance the overall portal.
+
+
