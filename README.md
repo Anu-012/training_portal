@@ -1,22 +1,28 @@
 ## ServiceNow Project: Training Management in ServiceNow
 
-## Overview: 
-This project aims at providing a customized Training Portal with automated training enrolment processes, catalogs for personalized training courses, self- registration, real time access to training schedules. There are automated approval workflows and notifications to the trainers and employees to keep them updated ensuring smoother and efficient process.
-
+## Traditional System
+- Current system relies on email communication between HRs/coordinators and employees to provide training details within their competency.
+- Trainings outside their competencies are difficult to attend given the waiting period
+- Leads to delays and potential risk of losing training opportunities.
+- Sudden emails on short notice also can lead to lack of preparedness for essential trainings.
+  
 ## Features
-- The system provides one-stop solution to the training processes in one platform thus saving time and effort for the manual process and reducing the wait period of the employees for enrolling.
-- With personalized training plans based on individual needs and career goals, employees receive relevant training opportunities tailoredto their roles thus enhancing their skill sets and overall performance.
-- There is data security ensured through RBACs(Role Based) and Data Access Controls (table and field level. data policies) and real-time tracking of the status of requests available for admins to monitor and efficiently manage the system.The participants can also view the progress of the status.
-- Provides employees with a user-friendly interface to explore and enroll in training sessions, the application will encourage a culture of continuous learning, leading to higher employee engagement and motivation.
+- Select desirable trainings With personalized training plans based on individual needs and career goals.
+- Data security ensured through RBACs(Role Based) and Data Access Controls (table and field level. data policies).
+- Provides a user-friendly interface to explore and enroll in training sessions.
 
 ## Repo Structure
 1. /architecture: Design overview
-2. /technologies used: Record Producers, Business Rules, Catalog Client Scripts, Notifications, Survey Designer
-3. /screenshots: Training Portal UI/Backend screenshots
+2. /screenshots: Training Portal UI/Backend screenshot
+3. /technologies used: Record Producers, Business Rules, Catalog Client Scripts, Notifications, Survey Designer
+4. /flows: approval workflows created
 
 ## How it Works
-1. User logs into the training portal- appending the native instance URL with /learning
-2. The Training Portal Homepage contains Approval requests, list of enrolled registrations for the Employee in the header menu.
-3. There are two forms available - 
+1. User logs into the training portal- appending the native instance URL with /learning.
+2. User submits the request via the portal.
+3. Record Producers creates a record in the respective tables.
+4. Flow Designer triggers the approval workflow based on the form submitted.
+5. Notifications sent to the competency head or the manager.
+6. Training scheduled and tracked accordingly.
 
 
