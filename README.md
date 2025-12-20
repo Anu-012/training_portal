@@ -14,7 +14,7 @@
 ## Repo Structure
 1. /architecture: Design overview
 2. /screenshots: Training Portal UI/Backend screenshot
-3. /technologies used: Record Producers, Business Rules, Catalog Client Scripts, Notifications, Survey Designer
+3. /methodologies: Record Producers, Business Rules, Catalog Client Scripts, Notifications, Survey Designer
 4. /flows: approval workflows created
 
 ## How it Works
