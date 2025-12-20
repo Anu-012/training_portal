@@ -1,1 +1,6 @@
-
+## How it works
+1. Once user submits request via registration form in the portal, a record gets created in the 'Trainer Registrations' table.
+2. This flow gets triggered and checks if the training selected has a competency head.
+3. An email gets triggered to the competency head requesting approval or rejection.
+4. If approved, an email is triggered to the user and status of the registration gets updated to 'approved'.
+5. If rejected, an email will still be triggered to the user and the status of the registration gets updated to 'rejected'.
