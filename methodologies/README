@@ -1,15 +1,27 @@
 ## Record Producers
+There are 2 record producers used to create the registration forms.
 
 ## Widgets
-There are three widget instances provided in the Training Portal which have been created using Widget Instance with Link. 
+There are 3 widget instances provided in the Training Portal which have been created using Widget Instance with Link. 
 
 ## Scripts
 Minimal scripting used which includes -
-1. Client Script for populating 
+1. Client Script for populating available slots for training on catalog form load.
+2. Client Script to display popup on successful form submission.
+3. Portal redirect script(redirect to Homepage) in record producers.
+4. Calculating available slots based on Registration table in the dictionary entry-
 
-2. Calculating available slots from the total slots for training
+(function calculatedFieldValue(current) {
+var inc = new GlideRecord('x_957439_trainin_0_registrations');
+inc.addEncodedQuery('training_start_date=' +current.sys_id'^training_status=Confirmed');
+inc.query();
+return current.total_slots = inc.getRowCount();
+}) (current);
+
+## Catalog UI Policy
+The 'Certifications' field will be hidden initially in the form.
+UI Policy and action to make the field visible if the field ‘Certificate’ choice is Yes.
   
-
 ## Notifications
 4 email notifications have been created which will get triggered once the workflow actions are triggered –
 1. Training Request Opened - Notification triggered to inform user that a request number has been generated on form submission.
