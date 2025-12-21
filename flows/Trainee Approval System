@@ -2,6 +2,6 @@
 1. Once user submits request via registration form in the portal, a record gets created in the 'Training Registrations' table.
 2. This flow gets triggered and checks if the user has a manager.
 3. An email gets triggered to the manager requesting approval or rejection.
-4. If approved, an email is triggered to the user and status of the registration gets updated to 'approved'.
-5. If rejected, an email will still be triggered to the user and the status of the registration gets updated to 'rejected'.
+4. If request approved by manager, then the training status field gets updated and email notification is sent to the participant for confirmation.
+5. If rejected, then follow the same actions to update table record as ‘Rejected’ and send mail to the participant.
 
