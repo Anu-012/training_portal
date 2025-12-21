@@ -1,6 +1,7 @@
 ## Record Producers
 
 ## Widgets
+There are three widget instances provided in the Training Portal which have been created using Widget Instance with Link. 
 
 ## Scripts
 Minimal scripting used which includes -
@@ -10,5 +11,13 @@ Minimal scripting used which includes -
   
 
 ## Notifications
+4 email notifications have been created which will get triggered once the workflow actions are triggered –
+1. Training Request Opened - Notification triggered to inform user that a request number has been generated on form submission.
+2. Training Request Opened - Notification triggered to inform trainer that a request number has been generated on form submission.
+3. Approval for training request- Notification triggered to inform the manager of the employee to approve the pending request submitted.
+4. Approval for trainer request – Notification triggered to inform the manager of the employee to approve the pending request submitted.
+
+
+
 
  
